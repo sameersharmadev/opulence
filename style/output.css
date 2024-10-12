@@ -1355,5 +1355,9 @@ video {
     }
 }
 img {
-    cursor: default; 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent; 
+    -webkit-optical-padding-adjustment: none; 
+    pointer-events: none; 
 }
