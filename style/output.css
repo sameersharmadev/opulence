@@ -1354,3 +1354,6 @@ video {
         opacity: 1;
     }
 }
+img {
+    cursor: default; 
+}
