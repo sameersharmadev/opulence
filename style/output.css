@@ -910,15 +910,15 @@ video {
 }
 
 .bg-\[url\(\'\/img\/About\.png\'\)\] {
-  background-image: url('/img/About.png');
+  background-image: url('./img/About.png');
 }
 
 .bg-\[url\(\'\/img\/HeroImage\.png\'\)\] {
-  background-image: url('/img/HeroImage.png');
+  background-image: url('./img/HeroImage.png');
 }
 
 .bg-\[url\(\'\/img\/Menu\.png\'\)\] {
-  background-image: url('/img/Menu.png');
+  background-image: url('./img/Menu.png');
 }
 
 .bg-cover {
