@@ -1,5 +1,5 @@
 <h1>Description</h2>
-<img src="./image.png" alt="Image">
+<img src="./Preview.png" alt="Image">
 Opulence is a web application that allows users to view the menu and make online reservations at a restaurant. It streamlines the dining experience by providing essential information about available dishes and booking options.
 <h2>Project website URL </h2>
 https://sameersharmadev.github.io/opulence/
