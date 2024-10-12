@@ -11,7 +11,7 @@ https://sameersharmadev.github.io/opulence/
 + <h4>User friendly interface</h4>
   Built with a clean design that prioritizes simplicity and easy navigation, making it straightforward for users to browse the menu and make reservations.
 + <h4>Responsivene and clean design</h4>
-  The layout adapts seamlessly across all devices, providing an optimal experience on mobile, tablet, and desktop.
+  The layout adapts across all devices, providing an optimal experience on mobile, tablet, and desktop.
 + <h4>Optimized for production</h4>
   CSS and JS are fully optimized for production, i.e  the code is minified, and TailwindCSS is purged
   <h4> #Note for Javascript and CSS code</h4>
@@ -22,23 +22,23 @@ https://sameersharmadev.github.io/opulence/
 <h2>Section breakdown</h2>
 
 + <h3>Home</h3>
-  The homepage was designed to provide a seamless user experience while guiding visitors towards the call to action (CTA). Here's a breakdown of its structure:
+  The homepage was designed to provide a smooth user experience while guiding visitors towards the call to action (CTA). Here's a breakdown of its structure:
 
   + <b>Hero section:</b> The hero section is carefully crafted to immediately capture attention. A bold headline, engaging imagery, and a prominent CTA button are strategically placed to draw users in and encourage them to explore the menu.
 
   + <b>Featured section:</b> Consists of the most popular signature dishes for the restaurant along with an option to view the full menu.
     
-  + <b>Working hours:</b> Consists of the location of the restaurant in an embedded map, along with information about open hours, and a CTA to make reservation.
+  + <b>Location and Time:</b> Consists of the location of the restaurant in an embedded map, along with information about open hours, and a CTA to make reservation.
     
   + <b>FAQs:</b> The frequently asked questions (FAQs) section addresses common concerns in an easy-to-navigate format, ensuring visitors can find answers without hassle.
  
 + <h3>About</h3>
   The About us section is thoughtfully designed to convey the goals, vision, and journey. It includes:
 
-  + <b>Our Goals and Vision:</b> This section outlines the mission, emphasizing the commitment to perfect dining experience.
+  + <b>Overview:</b> This section outlines details and purpose behind Opulence.
   
   + <b>Our Story:</b> A dedicated segment shares the origin of Opulence, highlighting the motivation and values that drive the platform.
-  + <b>Our Values:</b> Describes the working philosophy at Opulence, explaining how the meals are prepared hygenically and with utmost care.
+  + <b>Our Values:</b> Describes the working philosophy at Opulence, explaining how the meals are prepared hygienically and with utmost care.
 
   + <b>Meet Our Team:</b> This section introduces the core team behind Opulence, giving a personal touch by sharing roles and contributions.
     
