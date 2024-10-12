@@ -208,7 +208,7 @@
             </div>
             <div class="flex justify-end md:justify-between md:items-center w-full">
                 <div class="md:flex-grow"></div> 
-                <button id="reserve" class="text-center inline-block w-auto bg-transparent border border-darkgray text-darkgray font-lato px-4 py-1 rounded-md md:text-lg booking">
+                <button id="reserve" class="text-center inline-block w-auto bg-transparent border border-darkgray text-darkgray font-lato px-4 py-1 -md md:text-lg booking">
                     Reserve Your Seat
                 </button>
             </div>
@@ -236,7 +236,7 @@
         </div>
     </footer>
     <div id="contact-popup" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 hidden">
-        <div class="bg-white rounded-lg shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
+        <div class="bg-white  shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
             <div class="md:w-3/4 md:px-10">
                 <h2 class="text-2xl md:text-4xl font-playfair mb-4">Get in Touch</h2>
                 <div class="flex flex-col md:flex-row md:space-x-4 mb-4">
@@ -250,15 +250,15 @@
                 <div class="flex flex-col mb-4">
                     <textarea placeholder="Your Query" class="border border-darkgray bg-transparent p-2 h-32"></textarea>
                 </div>
-                <button class="bg-darkgray text-white font-lato px-4 py-2 rounded-md" id="submit-query">Submit</button>
+                <button class="bg-darkgray text-white font-lato px-4 py-2 -md" id="submit-query">Submit</button>
             </div>
             <div class="hidden md:block md:w-1/4 mt-4">
-                <img src="./img/reserve.jpg" alt="Contact" class="w-full h-auto rounded-md">
+                <img src="./img/reserve.jpg" alt="Contact" class="w-full h-auto -md">
             </div>
         </div>
     </div>
     <div id="reserve-popup" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 hidden">
-        <div class="bg-white rounded-lg shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
+        <div class="bg-white  shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
             <div class="md:w-3/4 md:px-10">
                 <h2 class="text-2xl md:text-4xl font-playfair mb-4">Reserve Your Seat</h2>
                 <form id="reserve-form">
@@ -277,11 +277,11 @@
                         <input type="date" id="date" class="text-darkgray border-b border-darkgray bg-transparent p-2 w-full" required>
                         <input type="time" id="time" class="border-b border-darkgray bg-transparent p-2 w-full" required>
                     </div>
-                    <button class="bg-darkgray text-white font-lato px-4 py-2 rounded-md" id="submit-reservation">Submit</button>
+                    <button class="bg-darkgray text-white font-lato px-4 py-2 " id="submit-reservation">Submit</button>
                 </form>
             </div>
             <div class="hidden md:block md:w-1/4 mt-4">
-                <img src="./img/bookfull.jpg" alt="Reserve" class="w-full h-auto rounded-md">
+                <img src="./img/bookfull.jpg" alt="Reserve" class="w-full h-auto ">
             </div>
         </div>
     </div>
