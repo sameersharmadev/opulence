@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('fade-in');
+});
+
 document.querySelectorAll('.contact').forEach(function(contactLink) {
     contactLink.addEventListener('click', function(event) {
         event.preventDefault();
