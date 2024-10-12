@@ -12,7 +12,7 @@ https://sameersharmadev.github.io/opulence/
   Built with a clean design that prioritizes simplicity and easy navigation, making it straightforward for users to browse the menu and make reservations.
 + <h4>Responsivene and clean design</h4>
   The layout adapts seamlessly across all devices, providing an optimal experience on mobile, tablet, and desktop.
-+ + <h4>Optimized for production</h4>
++ <h4>Optimized for production</h4>
   CSS and JS are fully optimized for production, i.e  the code is minified, and TailwindCSS is purged
   <h4> #Note for Javascript and CSS code</h4>
   The JavaScript and CSS in this project is minified to improve loading performance. If you'd like to view the full source code, you can use a deminifier tool or a browser's built-in "Pretty Print" option in the developer tools.
