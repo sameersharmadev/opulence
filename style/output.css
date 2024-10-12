@@ -1361,3 +1361,7 @@ img {
     -webkit-optical-padding-adjustment: none; 
     pointer-events: none; 
 }
+input:focus, textarea:focus {
+  outline: none;
+}
+
