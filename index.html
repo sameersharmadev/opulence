@@ -52,7 +52,7 @@
     <div id="hero" class="flex flex-col justify-center items-center bg-[url('/img/HeroImage.png')] bg-cover w-full bg-right h-60 md:h-96 gap-2 -mt-20 pt-8 ">
        <p class="font-playfair text-beige text-3xl text-center md:text-6xl">Indulge in Perfection</p>
        <p class="font-latto text-beige text-center md:text-4xl md:mb-5">Experience the Art of Fine Dining</p>
-       <button id="view-menu" class="view-menu bg-transparent border border-beige text-beige font-lato px-4 py-1 rounded-md hover:bg-beige hover:text-black transition duration-300 ease-in-out text-base md:text-xl md:px-8 md:py-2">
+       <button id="view-menu" class="view-menu bg-transparent border border-beige text-beige font-lato px-4 py-1  hover:bg-beige hover:text-black transition duration-300 ease-in-out text-base md:text-xl md:px-8 md:py-2">
         View Menu
     </button>
     
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="py-4">
-                <img src="./img/starter.png" alt="Image 1" class="ml-4 w-24 object-cover rounded">
+                <img src="./img/starter.png" alt="Image 1" class="ml-4 w-24 object-cover ">
                 </div>
             </div>
         
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div class="py-4">
-                <img src="./img/fullcourse.png" alt="Image " class="ml-4 w-24 object-cover rounded">
+                <img src="./img/fullcourse.png" alt="Image " class="ml-4 w-24 object-cover ">
                 </div>
             </div>
             
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="py-4">
-                <img src="./img/desert.png" alt="Image 1" class="ml-4 w-24 object-cover rounded">
+                <img src="./img/desert.png" alt="Image 1" class="ml-4 w-24 object-cover ">
                 </div>
             </div>
         
@@ -152,12 +152,12 @@
                     </div>
                 </div>
                 <div class="py-4">
-                <img src="./img/beverages.png" alt="Image 1" class="ml-4 w-24 object-cover rounded">
+                <img src="./img/beverages.png" alt="Image 1" class="ml-4 w-24 object-cover ">
                 </div>
             </div>
     </div>
     <div class="flex justify-center my-4">
-    <button id="view-menu" class="view-menu text-center inline-block w-auto bg-transparent border border-darkgray text-darkgray font-lato px-4 py-1 rounded-md md:text-lg">
+    <button id="view-menu" class="view-menu text-center inline-block w-auto bg-transparent border border-darkgray text-darkgray font-lato px-4 py-1  md:text-lg">
         View Full Menu
     </button>
     </div>
@@ -185,7 +185,7 @@
             </div>
             <div class="flex justify-end md:justify-between md:items-center w-full">
                 <div class="md:flex-grow"></div> 
-                <button id="reserve" class="text-center inline-block w-auto bg-transparent border border-darkgray text-darkgray font-lato px-4 py-1 rounded-md md:text-lg booking">
+                <button id="reserve" class="text-center inline-block w-auto bg-transparent border border-darkgray text-darkgray font-lato px-4 py-1  md:text-lg booking">
                     Reserve Your Seat
                 </button>
             </div>
@@ -252,7 +252,7 @@
     
 
     <div id="contact-popup" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 hidden">
-        <div class="bg-white rounded-lg shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
+        <div class="bg-white -lg shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
             <div class="md:w-3/4 md:px-10">
                 <h2 class="text-2xl md:text-4xl font-playfair mb-4">Get in Touch</h2>
                 <div class="flex flex-col md:flex-row md:space-x-4 mb-4">
@@ -266,16 +266,16 @@
                 <div class="flex flex-col mb-4">
                     <textarea placeholder="Your Query" class="border border-darkgray bg-transparent p-2 h-32"></textarea>
                 </div>
-                <button class="bg-darkgray text-white font-lato px-4 py-2 rounded-md" id="submit-query">Submit</button>
+                <button class="bg-darkgray text-white font-lato px-4 py-2 " id="submit-query">Submit</button>
             </div>
             <div class="hidden md:block md:w-1/4 mt-4">
-                <img src="./img/reserve.jpg" alt="Contact" class="w-full h-auto rounded-md">
+                <img src="./img/reserve.jpg" alt="Contact" class="w-full h-auto ">
             </div>
         </div>
     </div>
 
     <div id="reserve-popup" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 hidden">
-        <div class="bg-white rounded-lg shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
+        <div class="bg-white -lg shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
             
             <div class="md:w-3/4 md:px-10">
                 <h2 class="text-2xl md:text-4xl font-playfair mb-4">Reserve Your Seat</h2>
@@ -296,11 +296,11 @@
                         <input type="date" id="date" class="text-darkgray border-b border-darkgray bg-transparent p-2 w-full" required>
                         <input type="time" id="time" class="border-b border-darkgray bg-transparent p-2 w-full" required>
                     </div>
-                    <button class="bg-darkgray text-white font-lato px-4 py-2 rounded-md" id="submit-reservation">Submit</button>
+                    <button class="bg-darkgray text-white font-lato px-4 py-2 " id="submit-reservation">Submit</button>
                 </form>
             </div>
             <div class="hidden md:block md:w-1/4 mt-4">
-                <img src="./img/bookfull.jpg" alt="Reserve" class="w-full h-auto rounded-md">
+                <img src="./img/bookfull.jpg" alt="Reserve" class="w-full h-auto ">
             </div>
         </div>
     </div>
