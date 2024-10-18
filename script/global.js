@@ -31,7 +31,7 @@ document.getElementById('submit-reservation').addEventListener('click', function
     let time = document.getElementById('time').value;
 
     if (firstName && lastName && email && phone && guests && date && time) {
-        alert('Reservation submitted successfully! Thanks for choosing Opulence');
+        alert('Reservation submitted successfully!');
         document.getElementById('reserve-popup').classList.add('hidden');
         document.getElementById('reserve-form').reset();
     } else {

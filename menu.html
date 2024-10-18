@@ -187,7 +187,9 @@
             </div>
         </div>
     </div>
-
+    <div class="container mx-auto md:px-52 md:my-20 px-5">
+        <hr>
+    </div>
     <div class="container md: md:my-20 md:px-56 mx-auto px-7 md:flex md:flex-col justify-start">
         <p class="text-xl md:text-4xl font-playfair pb-4 py-10 md:mb-4">Schedule Your Visit</p>
         <div class="map-responsive border">
@@ -236,9 +238,9 @@
         </div>
     </footer>
     <div id="contact-popup" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 hidden">
-        <div class="bg-white  shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
-            <div class="md:w-3/4 md:px-10">
-                <h2 class="text-2xl md:text-4xl font-playfair mb-4">Get in Touch</h2>
+        <div class="bg-white -lg shadow-lg p-6 md:flex md:items-center">
+            <div class="md:px-10">
+                <h2 class="text-2xl text-center md:text-4xl font-playfair mb-4">Get in Touch</h2>
                 <div class="flex flex-col md:flex-row md:space-x-4 mb-4">
                     <input type="text" placeholder="First Name" class="border-b border-darkgray bg-transparent mb-2 md:mb-0 p-2 w-full">
                     <input type="text" placeholder="Last Name" class="border-b border-darkgray bg-transparent p-2 w-full">
@@ -250,17 +252,17 @@
                 <div class="flex flex-col mb-4">
                     <textarea placeholder="Your Query" class="border border-darkgray bg-transparent p-2 h-32"></textarea>
                 </div>
-                <button class="bg-darkgray text-white font-lato px-4 py-2 -md" id="submit-query">Submit</button>
-            </div>
-            <div class="hidden md:block md:w-1/4 mt-4">
-                <img src="./img/reserve.jpg" alt="Contact" class="w-full h-auto -md">
+                <button class="bg-darkgray w-full text-white font-lato px-4 py-2" id="submit-query">Submit</button>
             </div>
         </div>
     </div>
+
     <div id="reserve-popup" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 hidden">
-        <div class="bg-white  shadow-lg p-6 md:flex md:items-center w-10/12 md:w-3/4">
-            <div class="md:w-3/4 md:px-10">
-                <h2 class="text-2xl md:text-4xl font-playfair mb-4">Reserve Your Seat</h2>
+        <div class="bg-white -lg shadow-lg p-6 md:flex md:items-center">
+            
+            <div class="md:px-10">
+                <h2 class="text-2xl text-center md:text-4xl font-playfair mb-4">Reserve Your Seat</h2>
+                
                 <form id="reserve-form">
                     <div class="flex flex-col md:flex-row md:space-x-4 mb-4">
                         <input type="text" placeholder="First Name" id="first-name" class="border-b border-darkgray bg-transparent mb-2 md:mb-0 p-2 w-full" required>
@@ -273,15 +275,12 @@
                         <input type="tel" placeholder="Phone Number" id="phone" class="border-b border-darkgray bg-transparent p-2" required>
                     </div>
                     <div class="flex flex-col md:flex-row md:space-x-4 mb-4">
-                        <input type="number" placeholder="Number of Guests" id="guests" class="border-b border-darkgray bg-transparent p-2 w-full" min="1" required>
-                        <input type="date" id="date" class="text-darkgray border-b border-darkgray bg-transparent p-2 w-full" required>
-                        <input type="time" id="time" class="border-b border-darkgray bg-transparent p-2 w-full" required>
+                        <input type="number" placeholder="No. of Guests" id="guests" class="border-b mb-4 border-darkgray bg-transparent p-2 w-full" min="1" required>
+                        <input type="date" id="date" class="mb-4 text-darkgray border-b border-darkgray bg-transparent p-2 w-full" required>
+                        <input type="time" id="time" class="mb-4 border-b border-darkgray bg-transparent p-2 w-full" required>
                     </div>
-                    <button class="bg-darkgray text-white font-lato px-4 py-2 " id="submit-reservation">Submit</button>
+                    <button class="bg-darkgray w-full text-white font-lato px-4 py-2 " id="submit-reservation">Submit</button>
                 </form>
-            </div>
-            <div class="hidden md:block md:w-1/4 mt-4">
-                <img src="./img/bookfull.jpg" alt="Reserve" class="w-full h-auto ">
             </div>
         </div>
     </div>
